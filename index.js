@@ -11,7 +11,7 @@ const { MONGODB } = require("./config.js");
 
 const pubsub = new PubSub();
 
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 const server = new ApolloServer({
   // infers on its own if the key and value are the same, otherwise: typeDefs: value
